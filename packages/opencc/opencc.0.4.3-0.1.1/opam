@@ -1,14 +1,14 @@
 opam-version: "1.2"
 maintainer: "zandoye@gmail.com"
 authors: [ "ZAN DoYe" ]
-homepage: "https://bitbucket.org/zandoye/opencc/"
-bug-reports: "https://bitbucket.org/zandoye/opencc/issues"
+homepage: "https://bitbucket.org/zandoye/ocaml-opencc/"
+bug-reports: "https://bitbucket.org/zandoye/ocaml-opencc/issues"
 license: "MIT"
 tags: [
   "opencc"
   "Chinese conversion"
 ]
-dev-repo: "hg://https://bitbucket.org/zandoye/opencc"
+dev-repo: "hg://https://bitbucket.org/zandoye/ocaml-opencc"
 build: [
   [make]
 ]
