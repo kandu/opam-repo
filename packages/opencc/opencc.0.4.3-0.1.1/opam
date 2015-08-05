@@ -21,10 +21,10 @@ depends: [
 depexts: [
   [["debian"] ["libopencc-dev"]]
   [["ubuntu"] ["libopencc-dev"]]
-  [["archlinux"] ["opencc"]]
+  [["arch"] ["opencc"]]
 ]
 post-messages: [
   "This package requires installation of libopencc-dev (>= 0.4.3)" {failure & os = "debian"}
   "This package requires installation of libopencc-dev (>= 0.4.3)" {failure & os = "ubuntu"}
-  "This package requires installation of opencc" {failure & os = "archlinux"}
+  "This package requires installation of opencc" {failure & os = "arch"}
 ]
