@@ -14,7 +14,10 @@ build: [
   [make]
 ]
 install: [make "install"]
-remove: ["ocamlfind" "remove" "ok_monad"]
+remove: [
+  ["ocamlfind" "remove" "ok_monad"]
+  ["rm" "-f" "%{bin}%/ppx_ok_monad"]
+]
 depends: [
   "ocamlfind" {build}
 ]
