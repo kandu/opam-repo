@@ -1,0 +1,1 @@
+a monadic parser combinator library that deal with data of unpredictable length concurrently
