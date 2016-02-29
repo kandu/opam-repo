@@ -1,0 +1,17 @@
+opam-version: "1.2"
+maintainer: "zandoye@gmail.com"
+authors: [ "ZAN DoYe" ]
+homepage: "https://bitbucket.org/zandoye/email_message_1342/"
+bug-reports: "https://bitbucket.org/zandoye/email_message_1342/issues"
+license: "MIT"
+dev-repo: "hg://https://bitbucket.org/zandoye/email_message_1342"
+build: [
+  [make]
+]
+install: [make "install"]
+remove: ["ocamlfind" "remove" "email_message_1342"]
+depends: [
+  "ocamlfind" {build}
+  "email_message"
+]
+
