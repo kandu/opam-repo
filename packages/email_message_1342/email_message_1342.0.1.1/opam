@@ -12,6 +12,6 @@ install: [make "install"]
 remove: ["ocamlfind" "remove" "email_message_1342"]
 depends: [
   "ocamlfind" {build}
-  "email_message {>= "113.24.00" & < "113.25.00"}"
+  "email_message" {>= "113.24.00" & < "113.25.00"}
 ]
 
