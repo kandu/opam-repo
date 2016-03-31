@@ -1,0 +1,23 @@
+opam-version: "1.2"
+maintainer: "zandoye@gmail.com"
+authors: [ "ZAN DoYe" ]
+homepage: "https://bitbucket.org/zandoye/ok_parsec/"
+bug-reports: "https://bitbucket.org/zandoye/ok_parsec/issues"
+license: "MIT"
+tags: [
+  "parsec"
+  "parser combinator"
+]
+dev-repo: "hg://https://bitbucket.org/zandoye/ok_parsec"
+build: [
+  [make]
+]
+install: [make "install"]
+remove: ["ocamlfind" "remove" "ok_parsec"]
+depends: [
+  "ocamlfind" {build}
+  "ocamlgraph"
+  "lwt"
+  "core_kernel" {>= "113.33.00" & < "113.34.00"}
+]
+
