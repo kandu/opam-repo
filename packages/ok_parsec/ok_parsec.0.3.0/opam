@@ -18,6 +18,6 @@ depends: [
   "ocamlfind" {build}
   "ocamlgraph"
   "lwt"
-  "core_kernel" {>= "113.33.00" & < "113.34.00"}
+  "core_kernel" {>= "113.33.00"}
 ]
 
