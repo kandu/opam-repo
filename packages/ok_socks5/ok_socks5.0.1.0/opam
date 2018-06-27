@@ -13,6 +13,7 @@ build: [
   [make]
 ]
 depends: [
+  "core"
   "ok_parsec"
   "lwt"
   "ctypes"
