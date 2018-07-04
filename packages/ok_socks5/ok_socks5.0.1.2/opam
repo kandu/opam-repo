@@ -22,5 +22,6 @@ depends: [
   "jbuilder" {build}
   "ppx_ok_monad" {build}
   "ppx_ok_lwt" {build}
+  "lwt_ppx" {build}
 ]
 available: [ocaml-version >= "4.02.3"]
