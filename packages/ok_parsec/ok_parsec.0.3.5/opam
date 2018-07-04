@@ -16,6 +16,7 @@ depends: [
   "ocamlfind" {build}
   "ocamlgraph"
   "lwt"
+  "lwt_ppx" {build}
   "core_kernel" {>= "113.33.00"}
 ]
 
