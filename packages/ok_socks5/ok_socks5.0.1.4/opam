@@ -1,0 +1,27 @@
+opam-version: "1.2"
+maintainer: "zandoye@gmail.com"
+authors: [ "ZAN DoYe" ]
+homepage: "https://bitbucket.org/zandoye/ok_socks5/"
+bug-reports: "https://bitbucket.org/zandoye/ok_socks5/issues"
+license: "MIT"
+tags: [
+  "network"
+  "socks5"
+]
+dev-repo: "hg://https://bitbucket.org/zandoye/ok_socks5"
+build: [
+  [make]
+]
+depends: [
+  "core"
+  "ok_parsec"
+  "lwt"
+  "ctypes"
+  "ctypes-foreign"
+  "ppx_deriving"
+  "jbuilder" {build}
+  "ppx_ok_monad" {build}
+  "ppx_ok_lwt" {build}
+  "lwt_ppx" {build}
+]
+available: [ocaml-version >= "4.02.3"]
