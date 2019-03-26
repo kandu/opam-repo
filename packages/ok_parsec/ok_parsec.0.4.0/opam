@@ -14,7 +14,7 @@ build: [
 ]
 depends: [
   "ocaml"
-  "ocamlfind" {build}
+  "dune" {build}
   "ocamlgraph"
   "lwt"
   "lwt_ppx" {build}
