@@ -1,0 +1,32 @@
+opam-version: "2.0"
+maintainer: "zandoye@gmail.com"
+authors: [ "ZAN DoYe" ]
+homepage: "https://bitbucket.org/zandoye/ok_socks5/"
+bug-reports: "https://bitbucket.org/zandoye/ok_socks5/issues"
+license: "MIT"
+tags: [
+  "network"
+  "socks5"
+]
+dev-repo: "hg://https://bitbucket.org/zandoye/ok_socks5"
+build: [
+  [make]
+]
+depends: [
+  "ocaml" {>= "4.02.3"}
+  "dune" {build}
+  "core" {>= "v0.12"}
+  "ok_parsec"
+  "lwt"
+  "ctypes"
+  "ctypes-foreign"
+  "ppx_deriving"
+  "ppx_ok_monad" {build}
+  "ppx_ok_lwt" {build}
+  "lwt_ppx" {build}
+]
+synopsis: "implementation of socks5 protocol"
+url {
+  src: "https://bitbucket.org/zandoye/ok_socks5/get/0.4.0.tar.gz"
+  checksum: "md5=07bf716d08dc527bc272220aa62c5caf"
+}
