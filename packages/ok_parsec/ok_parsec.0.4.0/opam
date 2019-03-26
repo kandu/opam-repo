@@ -1,0 +1,28 @@
+opam-version: "2.0"
+maintainer: "zandoye@gmail.com"
+authors: [ "ZAN DoYe" ]
+homepage: "https://bitbucket.org/zandoye/ok_parsec/"
+bug-reports: "https://bitbucket.org/zandoye/ok_parsec/issues"
+license: "MIT"
+tags: [
+  "parsec"
+  "parser combinator"
+]
+dev-repo: "hg://https://bitbucket.org/zandoye/ok_parsec"
+build: [
+  [make]
+]
+depends: [
+  "ocaml"
+  "ocamlfind" {build}
+  "ocamlgraph"
+  "lwt"
+  "lwt_ppx" {build}
+  "core_kernel" {>= "v0.12"}
+]
+synopsis:
+  "a monadic parser combinator library that deal with data of unpredictable length concurrently"
+url {
+  src: "https://bitbucket.org/zandoye/ok_parsec/get/0.4.0.tar.gz"
+  checksum: "md5=f9dc90d3be20688b69b5c796078b862b"
+}
