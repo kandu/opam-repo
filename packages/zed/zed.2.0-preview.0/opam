@@ -11,6 +11,8 @@ depends: [
   "base-bytes"
   "camomile" {>= "0.8"}
   "react"
+  "result"
+  "charInfo_width"
 ]
 build: [
   ["dune" "subst" "-p" name] {pinned}
