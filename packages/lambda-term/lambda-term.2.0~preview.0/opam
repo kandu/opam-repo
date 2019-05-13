@@ -15,7 +15,7 @@ depends: [
   "lwt" {>= "4.0.0"}
   "lwt_log"
   "react"
-  "zed" {>= "2.0-preview.0"}
+  "zed" {>= "2.0~preview.0"}
   "camomile" {>= "0.8.6"}
   "lwt_react"
   "dune" {build & >= "1.0+beta9"}
