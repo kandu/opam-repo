@@ -30,6 +30,6 @@ for example, ncurses, by providing a native OCaml interface instead of bindings
 to a C library. Lambda-term integrates with zed to provide text edition
 facilities in console applications."""
 url {
-  src: "https://github.com/kandu/lambda-term/archive/width.zip"
-  checksum: "md5=2298c72e4d8300ed8a79d7afc13e9dab"
+  src: "https://github.com/kandu/lambda-term/archive/9d932aa94351bb4eeffab24ee797c8627e0e8be9.zip"
+  checksum: "md5=f3f1a7bada3b47981c1b03efcb6fa766"
 }
