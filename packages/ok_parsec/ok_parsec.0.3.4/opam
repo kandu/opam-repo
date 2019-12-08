@@ -17,6 +17,6 @@ depends: [
   "ocamlgraph"
   "lwt"
   "lwt_ppx" {build}
-  "core_kernel" {>= "113.33.00"}
+  "core_kernel" {>= "113.33.00" & < "v0.13" }
 ]
 
