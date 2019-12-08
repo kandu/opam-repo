@@ -15,6 +15,9 @@ depends: [
   "ocaml-migrate-parsetree" {>= "0.6"}
   "dune" {build}
 ]
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
 synopsis: "A ppx syntax extension for monad syntax sugar"
 url {
   src: "https://github.com/kandu/ppx_ok_monad/archive/0.2.8.tar.gz"
