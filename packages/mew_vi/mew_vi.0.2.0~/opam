@@ -20,6 +20,6 @@ description: """
 A vi-like modal editing engine generator."""
 
 url {
-  src: "https://github.com/kandu/mew_vi/archive/0.2.0.tar.gz"
-  checksum: "md5=65dac16f5372782e4a8ba6cbe48ba30c"
+  src: "https://github.com/kandu/mew_vi/archive/1df84361416273db65899b6e0c90786ee0735e42.zip"
+  checksum: "md5=7a8abbc8157dd1bffe6bda110a557d2d"
 }
