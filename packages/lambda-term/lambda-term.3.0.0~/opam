@@ -31,5 +31,5 @@ to a C library. Lambda-term integrates with zed to provide text edition
 facilities in console applications."""
 url {
   src: "https://github.com/kandu/lambda-term/archive/vi.zip"
-  checksum: "md5=c0949db7998bdca18ee217a495c17b8b"
+  checksum: "md5=62a9f72ecd2460cba5474f5c1d75a098"
 }
