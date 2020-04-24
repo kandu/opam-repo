@@ -21,5 +21,5 @@ A vi-like modal editing engine generator."""
 
 url {
   src: "https://github.com/kandu/mew_vi/archive/master.zip"
-  checksum: "md5=eaa9c5e6dbc2e6ffcd6682a3074e05bb"
+  checksum: "md5=1cbd60fa5e1c6675a51a27e40c24a80a"
 }
