@@ -1,0 +1,23 @@
+opam-version: "2.0"
+maintainer: "Ivan Gotovchits <ivg@ieee.org>"
+authors: "Ivan Gotovchits <ivg@ieee.org>"
+homepage: "https://github.com/ivg/parallel"
+bug-reports: "https://github.com/ivg/parallel/issues"
+dev-repo: "git+https://github.com/ivg/parallel.git"
+license: "MIT"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "ocaml"
+  "base-unix"
+  "lwt" {>= "2.7.0"}
+  "dune" {build}
+  "logs"
+]
+synopsis: "Lwt-enabled multiprocessing library"
+description: "Allows to run lwt threads in different process."
+url {
+  src: "https://github.com/ivg/parallel/archive/v0.1.3.tar.gz"
+  checksum: "md5=b73c66dd2934249e5c99e35d2c3f6aa5"
+}
