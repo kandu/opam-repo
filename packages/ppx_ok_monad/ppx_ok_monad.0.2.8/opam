@@ -9,7 +9,7 @@ tags: [
   "syntax extension"
   "monadic"
 ]
-dev-repo: "git://github.com/kandu/ppx_ok_monad"
+dev-repo: "git+https://github.com/kandu/ppx_ok_monad"
 depends: [
   "ocaml" {>= "4.02.3"}
   "ocaml-migrate-parsetree" {>= "0.6"}

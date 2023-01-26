@@ -1,4 +1,4 @@
-opam-version: "1.2"
+opam-version: "2.0"
 maintainer: "zandoye@gmail.com"
 authors: [ "ZAN DoYe" ]
 homepage: "https://bitbucket.org/zandoye/ppx_ok_monad/"
@@ -9,12 +9,19 @@ tags: [
   "syntax extension"
   "monadic"
 ]
-dev-repo: "hg://https://bitbucket.org/zandoye/ppx_ok_monad"
+dev-repo: "git+https://github.com/kandu/ppx_ok_monad"
 build: [
   [make]
 ]
 depends: [
+  "ocaml" {>="4.02.3"}
   "ocaml-migrate-parsetree" {>="0.6"}
   "jbuilder" {build}
 ]
-available: [ocaml-version >= "4.02.3"]
+
+synopsis: "A ppx syntax extension for monad syntax sugar"
+
+url {
+    src: "https://github.com/kandu/ppx_ok_monad/archive/refs/tags/0.2.7.tar.gz"
+    checksum: "md5=d598bc65ebb024503b014e80272cdc3e"
+}
