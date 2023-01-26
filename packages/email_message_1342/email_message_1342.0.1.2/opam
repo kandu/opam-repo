@@ -1,4 +1,4 @@
-opam-version: "1.2"
+opam-version: "2.0"
 maintainer: "zandoye@gmail.com"
 authors: [ "ZAN DoYe" ]
 homepage: "https://bitbucket.org/zandoye/email_message_1342/"
@@ -14,4 +14,15 @@ depends: [
   "ocamlfind" {build}
   "email_message" {>= "113.33.00" & < "113.34.00"}
 ]
+
+description:"""
+email_message_1342 - rfc1342 enhancement to email_message
+
+rfc1342 enhancement to email_message: Representation of Non-ASCII Text in Internet Message Headers"""
+
+
+url {
+    src: "https://github.com/kandu/email_message_1342/archive/refs/tags/0.1.2.tar.gz"
+    checksum: "md5=c8038a0ee042bb5b10ed90df3d910c65"
+}
 
