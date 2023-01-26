@@ -1,11 +1,11 @@
-opam-version: "1.2"
+opam-version: "2.0"
 maintainer: "whitequark <whitequark@whitequark.org>"
 authors: [ "whitequark <whitequark@whitequark.org>" ]
 license: "MIT"
 homepage: "https://github.com/whitequark/ppx_deriving"
 doc: "https://whitequark.github.io/ppx_deriving"
 bug-reports: "https://github.com/whitequark/ppx_deriving/issues"
-dev-repo: "https://github.com/whitequark/ppx_deriving.git"
+dev-repo: "git+https://github.com/whitequark/ppx_deriving.git"
 tags: [ "syntax" ]
 substs: [ "pkg/META" ]
 build: [
@@ -20,6 +20,7 @@ build-doc: [
   make "doc"
 ]
 depends: [
+  "ocaml" {>= "4.02.3"}
   "ocamlbuild" {build}
   "ocamlfind"  {build & >= "1.6.0"}
   "cppo"       {build}
@@ -30,4 +31,15 @@ depends: [
   "result"
   "ounit"      {test}
 ]
-available: [ ocaml-version >= "4.02.3" & opam-version >= "1.2" ]
+
+description: """
+Type-driven code generation for OCaml >=4.02
+
+ppx_deriving provides common infrastructure for generating
+code based on type definitions, and a set of useful plugins
+for common tasks."""
+
+url {
+    src: "https://github.com/ocaml-ppx/ppx_deriving/archive/v4.2.1.tar.gz"
+    checksum: "md5=2195fccf2a527c3ff9ec5b4e36e2f0a8"
+}
