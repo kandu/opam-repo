@@ -1,0 +1,27 @@
+opam-version: "2.0"
+maintainer: "zandoye@gmail.com"
+authors: [ "ZAN DoYe" ]
+homepage: "https://github.com/kandu/async_pool"
+bug-reports: "https://github.com/kandu/async_pool/issues"
+license: "MIT"
+dev-repo: "git+https://github.com/kandu/async_pool.git"
+build: [
+  ["dune" "build" "-p" name "-j" jobs]
+]
+depends: [
+  "ocaml" {>= "4.08"}
+  "async" {>= "v0.15"}
+  "dune" {>= "1.1.0"}
+]
+
+synopsis: "resource pools"
+description: """
+This module provides an abstraction for managing collections of resources"""
+
+url {
+  src: "https://github.com/kandu/async_pool/archive/refs/tags/v0.15-0.1.1.tar.gz"
+  checksum: [
+    "md5=a84e306911140bceb48715b2bf050408"
+    "sha256=4ebbb593d16205e1776eed6856e6127237ab23a30a05f0c2017d6180cb33cd42"
+    ]
+}
